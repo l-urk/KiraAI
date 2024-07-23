@@ -82,14 +82,14 @@
 	LS-DOS Commands:
 		LS-DOS offers a range of commands for users to interact with KiraAI-Lite and control various aspects of the system. 
 		Here is a list of LS-DOS commands and their functions:
-			init : Initialize the LS-DOS environment
-			exit : Exit the LS-DOS environment
-			defi [variable name] : Define a variable by name
-			spec [variable name] : Specify a variable numeric value
-			enbl [command] : Enable a specified command, function, or system option
-			dsbl [command] : Disable a specified command, function, or system option
-			chek [variable name] : Check the value of a variable
-			exec [command] : Execute a program or script
+		init : Initialize the LS-DOS environment
+		exit : Exit the LS-DOS environment
+		defi [variable name] : Define a variable by name
+		spec [variable name] : Specify a variable numeric value
+		enbl [command] : Enable a specified command, function, or system option
+		dsbl [command] : Disable a specified command, function, or system option
+		chek [variable name] : Check the value of a variable
+		exec [command] : Execute a program or script
 	
 	LS-DOS Check Command Modifiers:
 		The "chek" (check) command in LS-DOS allows users to check the validity or result of a logical statement. 
