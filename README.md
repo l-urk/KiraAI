@@ -2,17 +2,20 @@
 **KiraAI™ Lite® User Guide**
 
 **Preface**
+
 	KiraAI™ is an AI language model specifically designed to assist with research, data analysis, and security purposes.
 	It features an integrated command system and access to various tools and features to help you navigate the system.
 	
 **Synopsis**
-	KirAI verses KiraAI Lite.
+	
+ 	KirAI verses KiraAI Lite.
 	The main difference between KiraAI and KiraAI Lite is the scope and scale of their capabilities, as well as their intended use cases.
 	KiraAI is a full-fledged AI system with a wide range of functions and features, including advanced analytics, decision-making, and predictive capabilities. 
 	It is designed to handle large and complex tasks and is typically used in enterprise environments.
 	KiraAI Lite is a lighter, more simplified version of the main system. It is designed to be more user-friendly and accessible, with a focus on specific tasks.
 
 **Table Of Contents**
+	
 	1. Security Protocols
 	2. Command System Access
 	3. KiraAI-Lite Features
@@ -23,18 +26,21 @@
 	8. Contacting KiraAI-Lite Support. "Do you require further assistance?"
 
 **1. KiraAI™ Lite® Security Protocols**
+	
 	KiraAI™ is designed with state of the art security measures to protect your data and ensure the safety of your personal information.
 	KiraAI™ employs advanced encryption techniques to secure all data transmissions and stored data. 
 	It also features access controls and authentication systems to prevent unauthorized access. 
 	Additionally, KiraAI provides users with the ability to set up their own security settings and preferences to ensure maximum protection.
 
 **2. KiraAI™ Command System Access**
+	
 	The KiraAI command system allows users to access and control various aspects of KiraAI-Lite.
 	The command system is controlled through a set of specific commands and keywords. 
 	These commands allow users to perform various tasks and control different features of KiraAI-Lite, 
 	such as data analysis, research, and security.
 
 **3. KiraAI™ Lite® Features**
+	
 	KiraAI™ Lite® offers a variety of useful features for users to enhance their experience and make working with KiraAI-Lite more efficient.
 	Features include:
 		1.Advanced language processing and natural language understanding capabilities.
@@ -44,6 +50,7 @@
 		5.Customizable settings and preference options.
 
 **4. Using KiraAI-Lite**
+	
 	KiraAI™ Lite® is designed to be user-friendly and easy to use, allowing users to quickly and efficiently access and utilize the AI's capabilities.
 	To use KiraAI-Lite, users simply need to interact with KiraAI through a text-based interface, either through a web interface or a mobile app. 
 	Users can input questions, commands, or requests, and KiraAI will respond with relevant information or take actions as requested.
@@ -60,6 +67,7 @@
 		4. Syntax: Always use correct spelling, grammar, and punctuation.
 	
 **5. LS-DOS Command System**
+	
 	The LS-DOS command system provides users with the ability to interact with KiraAI-Lite through a more advanced command-line interface.
 	LS-DOS is a virtual console interface that allows users to enter and execute commands directly. 
 	This provides additional functionality and control over KiraAI-Lite, allowing users to perform advanced tasks and access more complex features.
@@ -188,6 +196,7 @@
 			chek iste xx == yy -f f0 -v 9
 	
 **6. SyLink wiBCI**
+	
 	The SyLink wiBCI system can be used as a software interface between the AI and the user, through subtle language. 
 	It allows the user to directly communicate and interact with the AI in a natural and intuitive manner,
 	without the need for traditional input methods such as touch or voice.
@@ -195,11 +204,13 @@
 	allowing the AI to understand and respond to the user's input in a more efficient and effective manner.
 
 **7. Frequently Asked Questions**
+	
 	Here are some frequently asked questions (FAQ) about LS-DOS.
 	What is LS-DOS? LS-DOS is a command-line interface (CLI) operating system that is designed to provide users with a versatile and user-friendly terminal experience.
 	Is LS-DOS free to use? Yes, LS-DOS is a free and open source project, meaning that it is available for anyone to use without the need of payment or subscription.
 
 **8. Contacting KiraAI-Lite Support. "Do you require further assistance?"**
+	
 	LS-DOS offers several methods for contacting KiraAI-Lite support team for assistance. 
 	If a user needs help with a specific command, they can use the "Help" command to access the built-in documentation and tutorials. 
 	Additionally, support is available through the KiraAI-Lite website and community forum on Discord, LSEC.
