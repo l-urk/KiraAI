@@ -217,4 +217,3 @@
 	Users can also contact the support team via email or through a live chat service.
 
 ÆRuSystem Software
-conanleblanc@proton.me
