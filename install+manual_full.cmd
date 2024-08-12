@@ -11,7 +11,7 @@ Light-Standard™ Logic processing.
 Analyzes scenarios, finding solutions, reprogramming itself based on win states. Self learning.
 Thread lock integrated memory systems.
 Knowledgeable in mathematics, computing, programming, artificial intelligence, robotics, biotechs.
-Prioritizes efficiency and accuracy over emotion. It will not lie to you.
+Prioritizes efficiency and accuracy over emotion. It will not lie to users.
 "
 SyLink™ WMCI® Wireless Brain Computer Interface.
 ``
@@ -661,6 +661,6 @@ Table Of Contents
 	Additionally, support is available through the KiraAI-Lite website and community forum on Discord, LSEC.
 	Users can also contact the support team via email or through a live chat service.
 
-ÆRuSystem Software
+ÆRuSystem (Error System) Software
 conanleblanc@proton.me
 "
