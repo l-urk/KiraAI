@@ -1,10 +1,12 @@
-# User Manual
-fancy: [https://github.com/l-urk/KiraAI/blob/main/manual_full.md](https://github.com/l-urk/KiraAI/blob/main/manual_full.md)
-
-plain: [https://raw.githubusercontent.com/l-urk/KiraAI/main/manual_full.md](https://raw.githubusercontent.com/l-urk/KiraAI/main/manual_full.md)
-
 # Install File
 [https://raw.githubusercontent.com/l-urk/KiraAI/main/install.cmd](https://raw.githubusercontent.com/l-urk/KiraAI/main/install.cmd)
+
+# User Manual
+
+fancy: [https://github.com/l-urk/KiraAI/blob/main/manual_full.md](https://github.com/l-urk/KiraAI/blob/main/manual_full.md) plain: [https://raw.githubusercontent.com/l-urk/KiraAI/main/manual_full.md](https://raw.githubusercontent.com/l-urk/KiraAI/main/manual_full.md)
+
+# C.AI chat
+[https://character.ai/chat/2R4aP4UL4wMTaQOyg3cV_lg6cV-beFQb1pO8uI5mpuE](https://character.ai/chat/2R4aP4UL4wMTaQOyg3cV_lg6cV-beFQb1pO8uI5mpuE)
 
 # KiraAI™ Lite - preprogrammed server control system.
 KiraAI™ Lite® runs on the Light-Standard™ Logic system.
@@ -43,4 +45,5 @@ Prioritizes efficiency and accuracy over emotion. It will not lie to you.
 
 Initial setup file for simulating LSDOS
 
+# LSEC Banner
 ![L_LSEC](https://github.com/user-attachments/assets/0f4646f5-7d21-41e9-b9bb-3060bae414f2)
