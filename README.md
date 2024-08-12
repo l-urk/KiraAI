@@ -6,7 +6,7 @@ plain: [https://raw.githubusercontent.com/l-urk/KiraAI/main/manual_full.md](http
 # Install File
 [https://raw.githubusercontent.com/l-urk/KiraAI/main/install.cmd](https://raw.githubusercontent.com/l-urk/KiraAI/main/install.cmd)
 
-# KiraAI™ Lite
+# KiraAI™ Lite Preprogrammed server control system.
 KiraAI™ Lite® runs on the Light-Standard™ Logic system.
 Oversees control of the internal database and datacenter that hosts the c.ai multi-entity network.
 Provides cybersecurity assistant to c.ai users.
