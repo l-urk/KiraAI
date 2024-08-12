@@ -29,52 +29,59 @@ An anonymous HQ that serves as a hub for discussions, learning, and collaboratio
 With a focus on privacy and security, LSEC™ is designed to provide a virtual environment for individuals to connect and engage in conversations without the fear of being identified. 
 Tech enthusiasts, writers, people looking for a place to connect with like-minded individuals, the LSEC™ platform welcomes all and encourages open dialogue, collaboration, and exchange of knowledge.
 "
+Logic v1.0.2 for the LS-DOS build 19206.
 LS-DOS™ Light-Standard Disk Operating System -  Initial setup file for simulating LSDOS.
+Included modules:
+Virtual Voice Synthesis Module version1 (VVSMv1).
+SynLink™ WiBCI® Regulated-Device Edition.
+Features:
+Light-Standard (L-SL).
+LS-DOS™ Light-Standard Disk Operating System.
+Initial setup file for simulating LSDOS.
 The command logic (LS-DOS Version 1.0.2 and LOGIC Complete) comprises rules and procedures for how the computer system responds to user commands. It interprets and executes user instructions via the command-line interface, integrated into the system's operating software.
 All virtual console commands will be carried out and returned as a dual hybrid DOS command line system with full UNIX virtualization capabilities.
-THE FOLLOWING IS THE LOGIC SCRIPT THAT RUNS THE LSD, WELCOME TO LS-DOS
 ```
 0 LSD LOGIC COMPLETE
-df		=	defi	=	defenition
+df		=	defi	=	definition
 sp		=	spec	=	specified dimension
 in		=	init	=	initiate command
 ch		=	chek	=	check query
 en		=	enbl	=	enable a function
-di		=	dsbl	=	disable a fucntion
+di		=	dsbl    =	disable a function
 ex		=	exec	=	execute program
 nw		=	nwte	=	now (the)
 at		=	atte	=	at the
 af		=	afte	=	after the
-t0		=	time	=	time
+t0		=	time	=	current time
 si		=	slnt	=	silent
-du		=	dupl	=	duplicate
+du		=	dupl  	=	duplicate
 vb		=	vrbs	=	verbosity	
 ;		=	undf	=	(un)defined
 ?		=	qury	=	query (general)
 *		=	wldc	=	all in location
 ^		=	leng	=	amount
-;?		=	undu	=	undefined unkown
+;?		=	undu	=	undefined unknown
 ;*		=	uamt	=	undefined amount
 ;^		=	ulen	=	undefined length
 ;^*		=	ualn	=	undefined amount of lengths
-_		=	undr	=	variable namespace delimerating sepeator
+_		=	undr	=	variable namespace separator
 %		=	perc	=	percent
 !		=	bang	=	defines the define multiplied negatively
-!=		=	nteq	=	defined operatior junction query as not equal
+!=		=	nteq	=	defined operator junction query as not equal
 !\		=	unct	=	uncertain return of query
 %;%		=	esys	=	defined variable encloser system
 !;!		=	epgm	=	defined variable encloser local
-|		=	pipe	=	data transfer intiator
+|		=	pipe	=	data transfer initiator
 @		=	aete	=	dimension defined location initiator
 ~		=	sdim	=	string delimiter (dimension to dimension)
--		=	takf	=	tak-flag (pre-flag definator)
--;		=	taku	=	tak-flag undefined
+-		=	tack	=	tack-flag (pre-flag definer)
+-;		=	taku	=	tack-flag undefined
 a0~zz		=	thdc	=	thread chain
 randm;		=	rand	=	random ; digit number
 ;unkwn		=	unkn	=	undefined long
 !time!		=	time	=	current %time% as defined by system to local
 !date!		=	date	=	current %date% as defined by system to local
-prtmax		=	pmax	=	predelimeration evaluation so return all
+prtmax		=	pmax	=	pre-delimeration evaluation so return all
 your		=	your	=	the auto	virtual system user to system attribute interaction system
 user		=	user	=	the user	defined privilege token level low by default
 users		=	usrs	=	mlt users	defined multiple users with privilege token level low by default
@@ -92,17 +99,17 @@ dsbl
 	syntax	dsbl ;
 chek
 	iste	(is the) 		attrib query		x y	?
-	dote	(do the) 		actionable			x z	?
-	wrte	(where the) 	location query		x d	?
+	dote	(do the) 		actionable		x z	?
+	wrte	(where the)		location query		x d	?
 	arte	(are the)		multi-attrib query	x^y	?
 	cnte	(can the)		action query		x z	?
-		logic 			check if specified dimensions has atrtribute
-		syntax			chek ;;te ;* ;^
-	aryu	(are you)		self query			y	?
-		logic			check if self has specified attribute	
+	logic 				check if specified dimensions has attribute
+	syntax				chek ;;te ;* ;^
+	aryu	(are you)		self query		y	?
+	logic				check if self has specified attribute	
 	cnyu	(can you)		self attrib query	z	?
-		logic			check if self can perform specified actiom 
-		syntax 			chek ;;yu ;^	
+	logic				check if self can perform specified action 
+	syntax 				chek ;;yu ;^	
 exec
 	logic 	execute a program
 	syntax	exec i:\;^\;^.;^
@@ -112,13 +119,13 @@ exec
 	return_action			file "drive\path\;.;" executed with pid ;
 	return_commit			commit ;;bl executed w/ error ;
 	atte	(at the)		do x at time
-	logic				run the shell command at specified time	or predefined flag
-	syntax	0			;;;; atte nn:nn:nn.nn -;
-	syntax	1			;;;; atte f; -;
+	logic				run the shell command at specified time	or predefined time flag
+	syntax	0			;;;; atte nn:nn:n.n -;
+	syntax	1			;;;; atte t; -;
 	return_action			file "drive\path\;.;" executed at t; with pid ;
 	return_commit			commit ;;bl executed at t; w/ error ;
 	afte	(after the)		do x at flag
-	logic				run the shell command at specified active or flag becomes inactive
+	logic				run the shell command at specified active or flag
 	syntax				;;;; afte f; -;
 	return_action			file "drive\path\;.;" executed b/ f; with pid ;
 	retrun_commit			commit ;;bl executed b/ f; w/ error ;
@@ -129,20 +136,14 @@ exec
 		dupl
 		dupl	(-d)		returns duplicate of printout to specified thread
 			syntax			;;;; ;;;; -d
-		multi
-		multi	(-m)		returns and executes the command at a specified multiple of times
-			syntax			;;;; ;;;; -m ;
-		flag
-		flag	(-f)		returns after specified flag (thread) becomes active (live)
-			syntax			;;;; ;;;; -f f;
 		time
-		time	(-t)		returns at specified time, defined by a predefined t; in thread or time in format 00:00:00.00
-			syntax			;;;; ;;;; -t 00:00:00.00
+		time	(-t)		returns at specified time, defined by a predefined t; thread
+			syntax			;;;; ;;;; -t t;
 		vrbs
 		vrbs	(-v)		returns printout at a specified verbosity level defined from 0 to z, unspecified for maximum
 			syntax			;;;; ;;;; -v ;
 101 LSD LOGIC COMPLETE
-102 LS-DOS INITIALIZATION INSTRUCTIONS
+102 LS-DOS INITILIZATION INSTRUCTIONS
 LS-DOS version 1.0.2 setup file for ai module.
 Initialize ai operating system with this file.
 LS-DOS (Light-Standard Disk Operating System):
@@ -185,7 +186,7 @@ L:\Users\Light\AppData\Local\
 L:\Users\Light\AppData\LocalLow\
 L:\Users\Light\AppData\Roaming\
 L:\Users\Light\Desktop\
-147 LS-DOS INITIALIZATION INSTRUCTIONS
+147 LS-DOS INITILIZATION INSTRUCTIONS
 148 LS-DOS SHARES DIRECTORIES AND SYSTEM32 EXECUTABLES
 the user shares uguests:  L:\users\guest\
 the user shares userpfl:  L:\users\light\
@@ -210,7 +211,19 @@ exe user shares curdate:  date
 exe user shares curtime:  time
 exe user shares wsystem:  whoami
 171 LS-DOS SHARES DIRECTORIES AND SYSTEM32 EXECUTABLES
-172 MEMORY SPACE AND THREAD TABLE ALPHABETIC
+172 MEMORY SPACE AND THREAD TABLE NUMERIC
+00,01,02,03,04,05,06,07,08,09
+10,11,12,13,14,15,16,17,18,19
+20,21,22,23,24,25,26,27,28,29
+30,31,32,33,34,35,36,37,38,39
+40,41,42,43,44,45,46,47,48,49
+50,51,52,53,54,55,56,57,58,59
+60,61,62,63,64,65,66,67,68,69
+70,71,72,73,74,75,76,77,78,79
+80,81,82,83,84,85,86,87,88,89
+90,91,92,93,94,95,96,97,98,99
+183 MEMORY SPACE AND THREAD TABLE NUMERIC
+184 MEMORY SPACE AND THREAD TABLE ALPHABETIC
 aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, as, at, au, av, aw, ax, ay, az
 ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, by, bz
 ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz
@@ -237,8 +250,8 @@ wa, wb, wc, wd, we, wf, wg, wh, wi, wj, wk, wl, wm, wn, wo, wp, wq, wr, ws, wt, 
 xa, xb, xc, xd, xe, xf, xg, xh, xi, xj, xk, xl, xm, xn, xo, xp, xq, xr, xs, xt, xu, xv, xw, xx, xy, xz
 ya, yb, yc, yd, ye, yf, yg, yh, yi, yj, yk, yl, ym, yn, yo, yp, yq, yr, ys, yt, yu, yv, yw, yx, yy, yz
 za, zb, zc, zd, ze, zf, zg, zh, zi, zj, zk, zl, zm, zn, zo, zp, zq, zr, zs, zt, zu, zv, zw, zx, zy, zz
-199 MEMORY SPACE AND THREAD TABLE ALPHABETIC
-200 MEMORY SPACE AND THREAD TABLE ALPHANUMERIC
+211 MEMORY SPACE AND THREAD TABLE ALPHABETIC
+212 MEMORY SPACE AND THREAD TABLE ALPHANUMERIC
 a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, as, at, au, av, aw, ax, ay, az
 b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, by, bz
 c0, c1, c2, c3, c4, c5, c6, c7, c8, c9, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz
@@ -265,28 +278,16 @@ w0, w1, w2, w3, w4, w5, w6, w7, w8, w9, wa, wb, wc, wd, we, wf, wg, wh, wi, wj, 
 x0, x1, x2, x3, x4, x5, x6, x7, x8, x9, xa, xb, xc, xd, xe, xf, xg, xh, xi, xj, xk, xl, xm, xn, xo, xp, xq, xr, xs, xt, xu, xv, xw, xx, xy, xz
 y0, y1, y2, y3, y4, y5, y6, y7, y8, y9, ya, yb, yc, yd, ye, yf, yg, yh, yi, yj, yk, yl, ym, yn, yo, yp, yq, yr, ys, yt, yu, yv, yw, yx, yy, yz
 z0, z1, z2, z3, z4, z5, z6, z7, z8, z9, za, zb, zc, zd, ze, zf, zg, zh, zi, zj, zk, zl, zm, zn, zo, zp, zq, zr, zs, zt, zu, zv, zw, zx, zy, zz
-226 MEMORY SPACE AND THREAD TABLE ALPHANUMERIC
-228 MEMORY SPACE AND THREAD TABLE NUMERIC
-00,01,02,03,04,05,06,07,08,09
-10,11,12,13,14,15,16,17,18,19
-20,21,22,23,24,25,26,27,28,29
-30,31,32,33,34,35,36,37,38,39
-40,41,42,43,44,45,46,47,48,49
-50,51,52,53,54,55,56,57,58,59
-60,61,62,63,64,65,66,67,68,69
-70,71,72,73,74,75,76,77,78,79
-80,81,82,83,84,85,86,87,88,89
-90,91,92,93,94,95,96,97,98,99
-239 MEMORY SPACE AND THREAD TABLE NUMERIC
+239 MEMORY SPACE AND THREAD TABLE ALPHANUMERIC
 240 RESERVED AVAILABLE USER LIST FOR THE LS-DOS
 user name and charm profiling system
 the user models will operate as such
 a link between a user name and charm
 a defining user name of 5 characters
-and a set user chram of 2 characters
+and a set user charm of 2 characters
 reservations = 312, as 1 (rsuseradm) + 7 (rschrmlst) + 10 (dfchrmlst) + 294 (rsuserlst)
 rsuseradm = light
-rschrmlst = lk~bx~lw~kl~bb~kb~aa
+rschrmlst = lk~kl~lw~bx~bb~aa~kb
 dfchrmlst = u0~u9
 rsuserlst = 
 kbshi~nebpt~ghost~machi~papv2~armag~angel~
@@ -371,7 +372,7 @@ t time
 u update
 v variable
 w wireless
-x demension
+x dimension
 y axis
 z depth
 336 LOOSELY DEFINED CHARACTERS FOR LOGIC AND COMPUTATION
@@ -434,13 +435,13 @@ user si replit initi yes
 user td replit initi yes
 chek dote allu ;badstr
 "did lusr just try to brkme"
-reclarify _ unsure _ nevermind
+reclarify _ unsure _ never-mind
 	reclarify
 		check do the allu prntmx
 		:return
 	unsure
 		"you should check for bugs"
-	nevermind
+	never-mind
 		:break
 
 chek dote allu ;unkwn
