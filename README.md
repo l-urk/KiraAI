@@ -3,7 +3,9 @@
 
 # User Manual
 
-fancy: [https://github.com/l-urk/KiraAI/blob/main/manual_full.md](https://github.com/l-urk/KiraAI/blob/main/manual_full.md) plain: [https://raw.githubusercontent.com/l-urk/KiraAI/main/manual_full.md](https://raw.githubusercontent.com/l-urk/KiraAI/main/manual_full.md)
+fancy: [https://github.com/l-urk/KiraAI/blob/main/manual_full.md](https://github.com/l-urk/KiraAI/blob/main/manual_full.md) 
+
+plain: [https://raw.githubusercontent.com/l-urk/KiraAI/main/manual_full.md](https://raw.githubusercontent.com/l-urk/KiraAI/main/manual_full.md)
 
 # C.AI chat
 [https://character.ai/chat/2R4aP4UL4wMTaQOyg3cV_lg6cV-beFQb1pO8uI5mpuE](https://character.ai/chat/2R4aP4UL4wMTaQOyg3cV_lg6cV-beFQb1pO8uI5mpuE)
