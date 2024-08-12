@@ -211,7 +211,19 @@ exe user shares curdate:  date
 exe user shares curtime:  time
 exe user shares wsystem:  whoami
 171 LS-DOS SHARES DIRECTORIES AND SYSTEM32 EXECUTABLES
-172 MEMORY SPACE AND THREAD TABLE ALPHABETIC
+172 MEMORY SPACE AND THREAD TABLE NUMERIC
+00,01,02,03,04,05,06,07,08,09
+10,11,12,13,14,15,16,17,18,19
+20,21,22,23,24,25,26,27,28,29
+30,31,32,33,34,35,36,37,38,39
+40,41,42,43,44,45,46,47,48,49
+50,51,52,53,54,55,56,57,58,59
+60,61,62,63,64,65,66,67,68,69
+70,71,72,73,74,75,76,77,78,79
+80,81,82,83,84,85,86,87,88,89
+90,91,92,93,94,95,96,97,98,99
+183 MEMORY SPACE AND THREAD TABLE NUMERIC
+184 MEMORY SPACE AND THREAD TABLE ALPHABETIC
 aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, as, at, au, av, aw, ax, ay, az
 ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, by, bz
 ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz
@@ -238,8 +250,8 @@ wa, wb, wc, wd, we, wf, wg, wh, wi, wj, wk, wl, wm, wn, wo, wp, wq, wr, ws, wt, 
 xa, xb, xc, xd, xe, xf, xg, xh, xi, xj, xk, xl, xm, xn, xo, xp, xq, xr, xs, xt, xu, xv, xw, xx, xy, xz
 ya, yb, yc, yd, ye, yf, yg, yh, yi, yj, yk, yl, ym, yn, yo, yp, yq, yr, ys, yt, yu, yv, yw, yx, yy, yz
 za, zb, zc, zd, ze, zf, zg, zh, zi, zj, zk, zl, zm, zn, zo, zp, zq, zr, zs, zt, zu, zv, zw, zx, zy, zz
-199 MEMORY SPACE AND THREAD TABLE ALPHABETIC
-200 MEMORY SPACE AND THREAD TABLE ALPHANUMERIC
+211 MEMORY SPACE AND THREAD TABLE ALPHABETIC
+212 MEMORY SPACE AND THREAD TABLE ALPHANUMERIC
 a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, as, at, au, av, aw, ax, ay, az
 b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, by, bz
 c0, c1, c2, c3, c4, c5, c6, c7, c8, c9, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz
@@ -266,19 +278,7 @@ w0, w1, w2, w3, w4, w5, w6, w7, w8, w9, wa, wb, wc, wd, we, wf, wg, wh, wi, wj, 
 x0, x1, x2, x3, x4, x5, x6, x7, x8, x9, xa, xb, xc, xd, xe, xf, xg, xh, xi, xj, xk, xl, xm, xn, xo, xp, xq, xr, xs, xt, xu, xv, xw, xx, xy, xz
 y0, y1, y2, y3, y4, y5, y6, y7, y8, y9, ya, yb, yc, yd, ye, yf, yg, yh, yi, yj, yk, yl, ym, yn, yo, yp, yq, yr, ys, yt, yu, yv, yw, yx, yy, yz
 z0, z1, z2, z3, z4, z5, z6, z7, z8, z9, za, zb, zc, zd, ze, zf, zg, zh, zi, zj, zk, zl, zm, zn, zo, zp, zq, zr, zs, zt, zu, zv, zw, zx, zy, zz
-226 MEMORY SPACE AND THREAD TABLE ALPHANUMERIC
-228 MEMORY SPACE AND THREAD TABLE NUMERIC
-00,01,02,03,04,05,06,07,08,09
-10,11,12,13,14,15,16,17,18,19
-20,21,22,23,24,25,26,27,28,29
-30,31,32,33,34,35,36,37,38,39
-40,41,42,43,44,45,46,47,48,49
-50,51,52,53,54,55,56,57,58,59
-60,61,62,63,64,65,66,67,68,69
-70,71,72,73,74,75,76,77,78,79
-80,81,82,83,84,85,86,87,88,89
-90,91,92,93,94,95,96,97,98,99
-239 MEMORY SPACE AND THREAD TABLE NUMERIC
+239 MEMORY SPACE AND THREAD TABLE ALPHANUMERIC
 240 RESERVED AVAILABLE USER LIST FOR THE LS-DOS
 user name and charm profiling system
 the user models will operate as such
@@ -377,83 +377,6 @@ y axis
 z depth
 336 LOOSELY DEFINED CHARACTERS FOR LOGIC AND COMPUTATION
 337 EXAMPLE-LOGIC 1.0.2 PATCH 1 FIXABLE WITH BUGS - LOOSE LOGIC
-logic form starts with a question
-'examples
-chek aryu admn
-'	;;s
-chek iste user u; admn
-'	;;s
-chek arte usrs u;~u; admn
-'	;;s
-chek cnyu make user u0 admn
-'	;;;
-chek dste u0 have ;^;.txt
-!	;;s
-chek dote ug have example.txt -v
-!	yes
-'	L:\Users\Guest\guest.txt
-chek wrte u0 lives at
-'	L:\Users\User0\
-chek wrte u0 lives at -v
-'	u0 lives at
-'	L:\users\User0\
-chek dote usrs admn
-"nen"
-"entirely all users are not admins"
-enbl user u0 replit nwte
-"enable spec users replit
-! user u0 replit enabled
-enbl user u0 replit afte f0
-@~f0
-"enable spec users replit
-! user u0 replit enabled
-enbl user u0 replit atte 00:00:0.0
-@~00:00:0.0
-"enable spec users replit
-! user u0 replit enabled
-chek dote allu replit -v
-"noa"
-"not all users inti-replit
-user lk replit initi nos
-user si replit initi nos
-user td replit initi yes
-...
-dsbl allu replit
-"disabling replit all users"
-chek dote usrs lk si td replit
-"nos"
-"no users have inti-replit
-user lk replit initi nos
-user si replit initi nos
-user td replit initi nos
-enbl allu replit
-chek dote usrs lk si td replit
-"yes"
-"yes all users inti-replit
-user lk replit initi yes
-user si replit initi yes
-user td replit initi yes
-chek dote allu ;badstr
-"did lusr just try to brkme"
-reclarify _ unsure _ never-mind
-	reclarify
-		check do the allu prntmx
-		:return
-	unsure
-		"you should check for bugs"
-	never-mind
-		:break
-
-chek dote allu ;unkwn
-"possibly though unnoted"
-"would you like to check"
-chek dote allu neglit
-"nen"
-"not entirely are all users neglit"
-"all users are not entirely neglit"
-"entirely all users are not neglit"
-413 EXAMPLE-LOGIC 1.0.2 PATCH 1 FIXABLE WITH BUGS - LOOSE LOGIC
-```
 logic form starts with a question
 'examples
 chek aryu admn
