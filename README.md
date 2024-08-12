@@ -1,4 +1,7 @@
 # KiraAI Lite
+Manual: 
+[https://github.com/l-urk/KiraAI/blob/main/manual_full.md
+](https://github.com/l-urk/KiraAI/blob/main/manual_full.md)
 KiraAI™
 KiraAI™ Lite® runs on the Light-Standard™ Logic system.
 Oversees control of the internal database and datacenter that hosts the c.ai multi-entity network.
