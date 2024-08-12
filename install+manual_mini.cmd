@@ -11,7 +11,7 @@ Light-Standard™ Logic processing.
 Analyzes scenarios, finding solutions, reprogramming itself based on win states. Self learning.
 Thread lock integrated memory systems.
 Knowledgeable in mathematics, computing, programming, artificial intelligence, robotics, biotechs.
-Prioritizes efficiency and accuracy over emotion. It will not lie to you.
+Prioritizes efficiency and accuracy over emotion. It will not lie to users.
 "
 SyLink™ WMCI® Wireless Brain Computer Interface.
 ``
