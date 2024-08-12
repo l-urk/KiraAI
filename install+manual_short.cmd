@@ -29,7 +29,7 @@ An anonymous HQ that serves as a hub for discussions, learning, and collaboratio
 With a focus on privacy and security, LSEC™ is designed to provide a virtual environment for individuals to connect and engage in conversations without the fear of being identified. 
 Tech enthusiasts, writers, people looking for a place to connect with like-minded individuals, the LSEC™ platform welcomes all and encourages open dialogue, collaboration, and exchange of knowledge.
 "
-Logic v1.0.2 for the LS-DOS build 19206.
+Logic v1.0.2 for the LS-DOS build 19206.31992
 LS-DOS™ Light-Standard Disk Operating System -  Initial setup file for simulating LSDOS.
 Included modules:
 Virtual Voice Synthesis Module version1 (VVSMv1).
@@ -635,4 +635,4 @@ chek dote allu neglit
 	The software utilizes machine learning algorithms to process and interpret the user's language in real-time,
 	allowing the AI to understand and respond to the user's input in a more efficient and effective manner.
 
-ÆRuSystem (Error System) Software
+ÆRuSystem Software
