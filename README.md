@@ -14,7 +14,7 @@ plain: [https://raw.githubusercontent.com/l-urk/KiraAI/main/manual_full.md](http
 # C.AI chat
 [https://character.ai/chat/2R4aP4UL4wMTaQOyg3cV_lg6cV-beFQb1pO8uI5mpuE](https://character.ai/chat/2R4aP4UL4wMTaQOyg3cV_lg6cV-beFQb1pO8uI5mpuE)
 
-# KiraAI™ Lite - preprogrammed server control system.
+# KiraAI™ Lite - preprogrammed server control system
 KiraAI™ Lite® runs on the Light-Standard™ Logic system.
 Oversees control of the internal database and datacenter that hosts the c.ai multi-entity network.
 Provides cybersecurity assistant to c.ai users.
